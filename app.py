@@ -594,7 +594,7 @@ def resources_page():
     <div class="info-box">
         <h3 style='color: #2c3e50; margin-top: 0;'>📚 Useful Resources</h3>
         <p style='color: #34495e; line-height: 1.6;'>
-        Links to datasets, documentation, and helpful references for this project.
+        Links to datasets and helpful references for this project.
         </p>
     </div>
     """, unsafe_allow_html=True)
@@ -611,13 +611,8 @@ def resources_page():
             "desc": "Main analysis notebook"
         },
         {
-            "title": "📖 Documentation",
-            "link": "#",
-            "desc": "Project documentation and methodology"
-        },
-        {
             "title": "💻 GitHub Repository",
-            "link": "#",
+            "link": "https://github.com/nyakabawurr-boop/Telco-Customer-Churn-Analysis",
             "desc": "Source code and project files"
         }
     ]
